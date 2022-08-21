@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.178);
+  position: fixed;
+  top: 0;
+  left: 0;
+  user-select: none;
+}
+.nav_wraper {
+  margin: 0 auto;
+  width: inherit;
+  color: white;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  background-image: url('https://images.pexels.com/photos/4000487/pexels-photo-4000487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: top;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.137);
+  transition: 5s;
+}
+.hero h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 64px;
+}
+.hero button {
+  height: 50px;
+  width: 120px;
+  background-color: white;
+  color: #bf9742;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.hero:hover {
+  background-position: center;
+}
+.hero button:hover {
+  background-color: #bf9742;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.397);
+  color: white;
+}
+section {
+  width: inherit;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+section h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.daftar_tamu_table {
+  width: 100%;
+}
+th {
+  text-align: left;
+  height: 40px;
+}
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #bf9742;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.137);
+  margin-top: 100px;
+  user-select: none;
+}
+footer p,
+footer h2 {
+  margin: 0;
+  color: white;
+  font-size: inherit;
+}
